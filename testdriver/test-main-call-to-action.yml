@@ -1,0 +1,8 @@
+version: 4.1.35
+steps:
+  - prompt: >-
+      Assert that the corresponding action or page is triggered or loaded.  #
+      Use the content of the file from the environment
+    commands:
+      - command: assert
+        expect: the "Как стать автором" section is visible
