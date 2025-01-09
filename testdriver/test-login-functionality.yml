@@ -1,0 +1,126 @@
+version: 4.1.35
+steps:
+  - prompt: Navigate to the login page.
+    commands:
+      - command: hover-text
+        text: Войти
+        description: login button in the top right of the header
+        action: click
+  - prompt: Enter valid credentials and submit the form.
+    commands:
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Пароль
+        description: password input field
+        action: click
+      - command: type
+        text: securepassword123
+      - command: hover-text
+        text: Войти
+        description: submit button below the password field
+        action: click
+  - prompt: Enter valid credentials and submit the form.
+    commands:
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Пароль
+        description: password input field
+        action: click
+      - command: type
+        text: securepassword123
+      - command: hover-text
+        text: Войти
+        description: submit button below the password field
+        action: click
+  - prompt: Enter valid credentials and submit the form.
+    commands:
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Пароль
+        description: password input field
+        action: click
+      - command: type
+        text: securepassword123
+      - command: hover-text
+        text: Войти
+        description: submit button below the password field
+        action: click
+  - prompt: Enter valid credentials and submit the form.
+    commands:
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Пароль
+        description: password input field
+        action: click
+      - command: type
+        text: securepassword123
+      - command: hover-text
+        text: Я не робот
+        description: captcha checkbox
+        action: click
+      - command: hover-text
+        text: ПОДТВЕРДИТЬ
+        description: confirm button in captcha verification
+        action: click
+  - prompt: Enter valid credentials and submit the form.
+    commands:
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Пароль
+        description: password input field
+        action: click
+      - command: type
+        text: securepassword123
+      - command: hover-text
+        text: Я не робот
+        description: captcha checkbox
+        action: click
+      - command: hover-text
+        text: ПОДТВЕРДИТЬ
+        description: confirm button in captcha verification
+        action: click
+      - command: hover-text
+        text: Войти
+        description: submit button
+        action: click
+  - prompt: Enter valid credentials and submit the form.
+    commands:
+      - command: hover-text
+        text: Email
+        description: email input field
+        action: click
+      - command: type
+        text: test@example.com
+      - command: hover-text
+        text: Я не робот
+        description: captcha checkbox
+        action: click
+      - command: hover-text
+        text: Войти
+        description: submit button
+        action: click
